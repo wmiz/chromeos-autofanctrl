@@ -2,7 +2,7 @@ if [ "$1" = "-rebooted" ]; then
   {
     echo "Installing part 2/2."
     echo "Downloading script"
-    curl -o /etc/init/fanctrl-custom.conf "https://raw.githubusercontent.com/apacelus/chromeos-autofanctrl/main/fanctrl-custom.conf"
+    curl -o /etc/init/fanctrl-custom.conf "https://raw.githubusercontent.com/wmiz/chromeos-autofanctrl/main/fanctrl-custom.conf"
     echo "Starting service"
     initctl start fanctrl-custom
     initctl reload fanctrl-custom
