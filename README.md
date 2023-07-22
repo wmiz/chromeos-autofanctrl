@@ -26,3 +26,6 @@ The script needs to be reinstalled after every update.
 ## Todo:
 
 - [ ] Reinstall automatically after system update
+
+#### Original Author
+[Apacelus](https://github.com/apacelus)
