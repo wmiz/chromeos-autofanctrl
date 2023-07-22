@@ -17,7 +17,8 @@ This script requires the chromebook to be in developer mode. It will also disabl
 1. Chromebook must be in [developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/).
 2. Press ctrl+alt+t to open the terminal, then type `shell` and press enter.
 3. Paste `sudo curl -L "https://raw.githubusercontent.com/wmiz/chromeos-autofanctrl/main/install.sh" | sudo bash` into terminal and press enter.
-4. After the chromebook reboots run `sudo curl -L "https://raw.githubusercontent.com/wmiz/chromeos-autofanctrl/main/install.sh" | sudo bash -s -- -rebooted` in the terminal.
+4. After the chromebook reboots press ctrl+alt+t to open the terminal, type shell and press enter again.
+5. Finally run `sudo curl -L "https://raw.githubusercontent.com/wmiz/chromeos-autofanctrl/main/install.sh" | sudo bash -s -- -rebooted` in the terminal.
 
 ## Post-install
 
